@@ -8,4 +8,6 @@ public interface FileInterface {
 	public void showFileList();
 	public void removeFile() throws FileNotInDirectoryException;
 	public void addFile()throws DuplicaterFileException, IOException;
+	public void searchFile() throws FileNotInDirectoryException;
+
 }
